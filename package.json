@@ -1,0 +1,8 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "A simple Task Manager web app with login, add, complete, and delete tasks.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

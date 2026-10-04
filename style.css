@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f6fa; color: #222; margin: 0; padding: 40px 16px; }
+.card { max-width: 520px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 28px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h1 { font-size: 24px; margin: 0 0 12px; }
+label { display: block; font-size: 14px; margin: 14px 0 6px; }
+input[type=text], input[type=password] { width: 100%; padding: 10px; font-size: 15px; border: 1px solid #c8ccd4; border-radius: 6px; }
+button { padding: 10px 16px; font-size: 15px; border: 0; border-radius: 6px; background: #2f6fde; color: #fff; cursor: pointer; }
+button.secondary { background: #e4e7ec; color: #222; }
+button.delete { background: #d93636; padding: 6px 10px; font-size: 13px; }
+#login-button { margin-top: 18px; width: 100%; }
+.row { display: flex; gap: 8px; }
+.row input { flex: 1; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.hint { color: #666; font-size: 14px; }
+.error { color: #c62828; font-size: 14px; min-height: 18px; }
+#task-counter { color: #555; font-size: 14px; }
+#task-list { list-style: none; padding: 0; }
+#task-list li { display: flex; align-items: center; gap: 10px; padding: 10px; border-bottom: 1px solid #eee; }
+#task-list li span { flex: 1; }
+#task-list li.done span { text-decoration: line-through; color: #888; }
+#empty-message { color: #888; font-size: 14px; }
